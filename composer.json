@@ -1,0 +1,13 @@
+{
+    "name": "vendor/whatsapp-media-encryption",
+    "description": "Декораторы PSR-7 потоков для шифрования/дешифрования алгоритмам WhatsApp",
+    "require": {
+         "php": ">=7.1",
+         "guzzlehttp/psr7": "^2.0"
+    },
+    "autoload": {
+         "psr-4": {
+              "WhatsApp\\MediaEncryption\\": "src/"
+         }
+    }
+}
